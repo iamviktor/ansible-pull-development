@@ -446,10 +446,10 @@
 #      - name: Copy desktop RubyMine file
 #        copy: src=files/RubyMine-Docker.desktop dest=/home/vagrant/Desktop/RubyMine-Docker.desktop owner=vagrant group=vagrant backup=no mode=755
 
-      - name: Checkout CLion Container
-        git: repo=https://github.com/kurron/docker-clion.git dest=/home/vagrant/GitHub/docker-clion
-      - name: Copy desktop CLion file
-        copy: src=files/CLion-Docker.desktop dest=/home/vagrant/Desktop/CLion-Docker.desktop owner=vagrant group=vagrant backup=no mode=755
+#      - name: Checkout CLion Container
+#        git: repo=https://github.com/kurron/docker-clion.git dest=/home/vagrant/GitHub/docker-clion
+#      - name: Copy desktop CLion file
+#        copy: src=files/CLion-Docker.desktop dest=/home/vagrant/Desktop/CLion-Docker.desktop owner=vagrant group=vagrant backup=no mode=755
 
 #     - name: Checkout DataGrip Container
 #       git: repo=https://github.com/kurron/docker-0xdbe.git dest=/home/vagrant/GitHub/docker-0xdbe
