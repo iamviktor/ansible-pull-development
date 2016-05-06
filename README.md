@@ -1,5 +1,6 @@
 #Overview
 This project is a sub-project of the [JVM Development Environment](https://github.com/kurron/jvm-development-environment). 
+__This fork is for Python specific development. So, it excludes some unused libs and tools.__
 The Ansible plays described here will be applied to the Vagrant environment being built.  The purpose of this project 
 is to install a variety of development tools into the Vagrant box.
 
@@ -21,19 +22,19 @@ This project is intended to be invoked by the JVM Development Environment projec
 * [Subversion](https://subversion.apache.org/)
 * [JDK](http://www.oracle.com/technetwork/java/index.html)
 * [SDKMAN!](http://sdkman.io/)
-* [Leiningen](http://leiningen.org/)
-* [Ant](http://ant.apache.org/)
-* [Maven](https://maven.apache.org/)
+~~* [Leiningen](http://leiningen.org/)~~
+~~* [Ant](http://ant.apache.org/)~~
+~~* [Maven](https://maven.apache.org/)~~
 * [Node JS](https://nodejs.org/en/)
 * [npm](https://www.npmjs.com/)
 * [Yeoman](http://yeoman.io/)
 * [Bower](http://bower.io/)
 * [Grunt](http://gruntjs.com/)
-* [JHipster](https://jhipster.github.io/)
-* [IntelliJ IDEA](http://www.jetbrains.com/idea/) (via Docker)
+~~* [JHipster](https://jhipster.github.io/)~~
+~~* [IntelliJ IDEA](http://www.jetbrains.com/idea/) (via Docker)~~
 * [PyCharm](http://www.jetbrains.com/pycharm/) (via Docker)
-* [WebStorm](http://www.jetbrains.com/webstorm/) (via Docker)
-* [RubyMine](http://www.jetbrains.com/ruby/) (via Docker)
+~~* [WebStorm](http://www.jetbrains.com/webstorm/) (via Docker)~~
+~~* [RubyMine](http://www.jetbrains.com/ruby/) (via Docker)~~
 * [Charles](http://www.charlesproxy.com/) (via Docker)
 * [DbVisualizer](https://www.dbvis.com/) (via Docker)
 * [logFaces](http://www.moonlit-software.com/) (via Docker)
